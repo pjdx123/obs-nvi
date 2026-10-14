@@ -29,21 +29,25 @@ OBS Studio 的 **NVI（Network Video Interface）输入 / 输出插件**（Windo
 
 ## 界面截图
 
-**NVI 源属性页**（流列表、本机接口、音视频 / 代理 / 硬解开关）
+**1. 添加 NVI 源**（来源面板 → `+` → NVI 源）
 
-![NVI 源属性页](docs/images/source-properties.png)
+![添加 NVI 信号源](docs/images/添加nvi信号源.png)
 
-**NVI 输出**（设置 → 输出，编码格式与发送项）
+**2. 选择并配置 NVI 流**（属性页：流列表、本机接口、音视频 / 代理 / 硬解开关）
 
-![NVI 输出设置](docs/images/output-settings.png)
+![选择 NVI 信号源](docs/images/选择nvi信号源.png)
 
-**工具菜单 · NVI 输出设置…**（独立启停与状态查看）
+**3. 接收画面**（NVI 信号在 OBS 预览窗口显示）
 
-![NVI 输出设置对话框](docs/images/output-dialog.png)
+![NVI 信号在预览窗口预览](docs/images/nvi信号在预览窗口预览.png)
 
-**接收效果**
+**4. NVI 输出设置**（设置 → 输出，编码格式与发送项）
 
-![预览画面](docs/images/preview.png)
+![NVI 输出设置](docs/images/nvi输出设置.png)
+
+**5. 输出成功**（接收端 monitor 已收到该路 NVI 流）
+
+![NVI 输出成功在 monitor 中接收](docs/images/nvi输出成功在monitor中接收.png)
 
 ---
 
@@ -53,7 +57,7 @@ OBS Studio 的 **NVI（Network Video Interface）输入 / 输出插件**（Windo
 obs-nvi/
 ├── CMakeLists.txt            # 构建定义（目标 obs-nvi，支持独立构建 / 树内构建）
 ├── README.md                 # 本文档
-├── COPYING                   # GPL-2.0（与 OBS Studio 一致）
+├── LICENSE                   # GPL-3.0
 ├── data/
 │   └── locale/               # 界面文案
 │       ├── en-US.ini
