@@ -2,10 +2,32 @@
 
 OBS Studio 的 **NVI（Network Video Interface）输入 / 输出插件**（Windows）。
 
+*An OBS Studio plugin that adds NVI (Network Video Interface) input / output on Windows.*
+
 基于 NVI 官方 SDK，把 OBS 接到 NVI 网络视频体系里：既可以把网络中的 NVI 流接收成 OBS 来源，
 也可以把 OBS 的画面与声音编码后作为一路 NVI 流发送出去。
 
 > 仅支持 **Windows x64**：NVI 官方 SDK 只提供 Windows 版本（`NVI.lib` + `NVI.dll`）。
+
+---
+
+## English Overview
+
+**obs-nvi** is a Windows plugin for [OBS Studio](https://obsproject.com/) that adds **NVI
+(Network Video Interface)** input and output:
+
+- **NVI Source (input)** — discover and receive NVI network streams into OBS, with optional
+  video / audio, proxy stream and hardware decoding.
+- **NVI Output** — encode OBS audio / video into an NVI stream (AVC / HEVC / HF / SUVC);
+  usable as an OBS output type or from the *Tools → NVI Output Settings…* dialog.
+
+Requirements: Windows 10/11 x64, OBS Studio 30+, Visual Studio 2022, CMake 3.28+, Qt6 Widgets.
+The NVI SDK (headers, `NVI.lib`, runtime DLLs) is bundled in `sdk/`.
+Build, install and usage instructions are in the Chinese sections below.
+
+**Keywords**: OBS Studio plugin, OBS NVI plugin, NVI source, NVI output, Network Video
+Interface, NVI protocol, Sobey NVI, NVI 插件, 视频信号输入输出, video over IP, broadcast,
+live streaming, video streaming, Windows x64, C++, CMake, Qt6, GPL-3.0.
 
 ---
 
