@@ -11,6 +11,19 @@ OBS Studio 的 **NVI（Network Video Interface）输入 / 输出插件**（Windo
 
 ---
 
+## 下载 / Mirrors
+
+| 站点 | 地址 | 说明 |
+| --- | --- | --- |
+| **Gitee**（主仓库） | <https://gitee.com/pjdx123/obs-nvi> | 主仓库，Issue / PR 请优先提交到这里 |
+| **GitHub**（镜像） | <https://github.com/pjdx123/obs-nvi> | 由 Gitee 同步的镜像，内容与主仓库一致 |
+
+```bash
+git clone https://gitee.com/pjdx123/obs-nvi.git
+```
+
+---
+
 ## English Overview
 
 **obs-nvi** is a Windows plugin for [OBS Studio](https://obsproject.com/) that adds **NVI
